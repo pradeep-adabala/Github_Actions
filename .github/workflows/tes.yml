@@ -1,0 +1,10 @@
+name: Testing
+on: push
+  workflow_dispatch:
+
+jobs:
+  printing: 
+    runs-on: ubuntu-latest
+    steps:
+      - name: print my name
+        run: echo "hello pradeep how are you"
