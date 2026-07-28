@@ -7,4 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print my name
-        run: echo "hello pradeep how are you"
+        run: |
+          echo "hello pradeep how are you"
+          echo "Good Morninig"
